@@ -31,6 +31,9 @@ public class Functions {
             case 9:
                 convertedNumber = "IX"; 
                 break;
+            case 0:
+                convertedNumber = "";
+                break;
         }
         return convertedNumber;
     }
